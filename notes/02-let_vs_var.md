@@ -1,3 +1,9 @@
+| |`var`|`let`|`const`|
+|-|-|-|-|
+|Reference before assignment|:white_check_mark:|:x:|:x:|
+|Redefinition|:white_check_mark:|:x:|:x:|
+|Reassignment|:white_check_mark:|:white_check_mark:|:x:|
+
 ## Reference before assignment
 
 ```js
@@ -9,13 +15,6 @@ var name = "Rey";
 console.log(name);
 let name = "Finn";  // ReferenceError: name is not defined
 ```
-
-## Redefinition and reassignment
-
-| |`var`|`let`|`const`|
-|-|-|-|-|
-|Redefinition|:white_check_mark:|:x:|:x:|
-|Reassignment|:white_check_mark:|:white_check_mark:|:x:|
 
 ### Redefinition
 
