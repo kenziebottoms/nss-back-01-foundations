@@ -4,5 +4,6 @@ A repo for notes and throwaway code associated with ES6 review before the back-e
 
 - [Notes](notes)
 - [Livecodes](livecodes)
+- [Exercises](exercises)
 
 ## Resources
