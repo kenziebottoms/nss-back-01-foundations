@@ -21,3 +21,14 @@ const dog = {
 // hip AND concise
 const { color, name: {firstName: dogFirstName}, breed, speak} = dog;
 console.log(color, dogFirstName, breed, speak);
+
+const arr = [1,2,3,4,5];
+const [a,b] = arr;  // 1, 2
+console.log(a,b);
+const [c, ...d] = arr;  // 1, [2, 3, 4, 5]
+console.log(c,d);
+// clone the array!!!!!
+const [...e] = arr; // [1, 2, 3, 4, 5]
+console.log(e);
+const [,,,,f] = arr;
+console.log(f); // [5]
