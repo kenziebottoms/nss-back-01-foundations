@@ -5,8 +5,10 @@ This is a suggested order for completing the exercises in orientation. Copied fr
 The `challenges` folder contains some optional extra brain-burning you can tackle at any time, when you feel ready. Do them solo, or grab a teammate or two and dive in. The calendar exercise is an especially good one to try with a group.
 
 # Order of Exercises
+
 ## Basics of NodeJS
-1. [Hello World](./00-hello_world.md)
+
+1. :white_check_mark: [Hello World](helloWorld.js)
 1. [ES6: Refresher and New Awesomeness](./01_es6-awesomeness.md)
 1. [JS Objects: Composition and Aggregation](./01b-compose_aggregate.md)
 1. [Direct Execution](./02-direct_execution.md)
