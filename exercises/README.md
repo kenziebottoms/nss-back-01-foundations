@@ -1,6 +1,6 @@
 # Node.js Orientation Exercises
 
-This is a suggested order for completing the exercises in orientation.
+This is a suggested order for completing the exercises in orientation. Copied from [this repo](https://github.com/nashville-software-school/bangazon-corp/tree/master/orientation/resources).
 
 The `challenges` folder contains some optional extra brain-burning you can tackle at any time, when you feel ready. Do them solo, or grab a teammate or two and dive in. The calendar exercise is an especially good one to try with a group.
 
