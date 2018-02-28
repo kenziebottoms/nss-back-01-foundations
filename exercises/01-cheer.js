@@ -1,5 +1,10 @@
 const [,,...name] = process.argv;
 
+// reference: https://stackoverflow.com/questions/951021/what-is-the-javascript-version-of-sleep
+let sleep = x => {
+    return new Promise(resolve => setTimeout(resolve, x));
+};
+
 // "hai mark" => ["h","a","i"," ","m","a","r","k"]
 let list = phrase => {
     let letters = [];
@@ -13,19 +18,25 @@ let list = phrase => {
     return letters;
 };
 
-let shout = letters => {
+// does the cheer
+async function cheer(phrase) {
+    let letters = list(phrase);
+    letters = letters.map(l => l.toUpperCase());
     for (let i in letters) {
         if (letters[i] != " ") {
             console.log(`Give me ${articleOf(letters[i])} ${letters[i]}!`);
+            await sleep(1000);
         } else {
             console.log("");
         }
     }
     console.log("\nWhat does that spell?");
+    await sleep(1000);
     letters.push("!");
     console.log(letters.join(""));
-};
+}
 
+// returns "a" or "an" according to letter
 let articleOf = letter => {
     let an = ["A","E","F","H", "I","L","M","N","O","R","S","X"];
     if (an.indexOf(letter) == -1) {
@@ -35,6 +46,4 @@ let articleOf = letter => {
     }
 };
 
-let letters = list(name);
-let capLetters = letters.map(l => l.toUpperCase());
-shout(capLetters);
+cheer(name);
