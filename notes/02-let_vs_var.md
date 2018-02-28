@@ -3,6 +3,7 @@
 |Reference before assignment|:white_check_mark:|:x:|:x:|
 |Redefinition|:white_check_mark:|:x:|:x:|
 |Reassignment|:white_check_mark:|:white_check_mark:|:x:|
+|Block scope|:x:|:white_check_mark:|:white_check_mark:|
 
 ## Reference before assignment
 
