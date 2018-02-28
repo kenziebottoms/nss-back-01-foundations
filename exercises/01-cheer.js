@@ -39,11 +39,7 @@ async function cheer(phrase) {
 // returns "a" or "an" according to letter
 let articleOf = letter => {
     let an = ["A","E","F","H", "I","L","M","N","O","R","S","X"];
-    if (an.indexOf(letter) == -1) {
-        return "a";
-    } else {
-        return "an";
-    }
+    return an.indexOf(letter) == -1 ? "a" : "an";
 };
 
 cheer(name);
