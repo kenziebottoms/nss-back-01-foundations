@@ -9,8 +9,7 @@ The `challenges` folder contains some optional extra brain-burning you can tackl
 ## Basics of NodeJS
 
 1. :white_check_mark: [Hello World](00-helloWorld.js)
-1. :white_check_mark: [ES6: Refresher and New Awesomeness (aka Cheer)](01-cheer.js)
-1. [JS Objects: Composition and Aggregation](./01b-compose_aggregate.md)
+1. :white_check_mark: [Cheer](01-cheer.js)
 1. [Direct Execution](./02-direct_execution.md)
 1. [Global Object](./03-global_object.md)
 1. [Node Versions](./04-nodejs_versions.md)

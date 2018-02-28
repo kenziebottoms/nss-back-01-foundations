@@ -7,27 +7,6 @@ Create a file called `queries.sql`
 
 > **Note:** The `.sql` extension is common practice for files storing SQL queries
 
-#### Talking to a Database
-
-###### SQL Statements
- * SQL keywords are written in CAPS
- * Basic Structure of a SQL statement:
-  `SELECT ______
-  FROM ______
-  JOIN ______ ON ______
-  WHERE ______`
-
-* Example:  `SELECT * FROM employees WHERE name LIKE ‘b%’`
-   * LIKE means “matches a pattern” and % means “starts with” (wildcard).
-
-* Example 2: `SELECT products.id, products.name FROM order_details JOIN products ON  order_details.product_id = products.id WHERE order_details.order_id = 10250`
-
-###### Joins
-* http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/
-* With a join, you must specify how the table is joined using ON. Otherwise, you will get all the combinations possible of one table row matched with another table row.
-  * **Inner Join** matches one table with another table row for row. If one row doesn’t have its pair on another table, it will be excluded. It will only show matching row pairs.
-  * **Outer Join** matches two tables row for row but includes rows that are not paired up, aka rows that have a pair with a null in the other table.
-
 ## Instructions
 
 1. Open up the database file in the *DB Browser for SQLite* application to see it
@@ -53,10 +32,3 @@ For each of the following exercises, provide the appropriate query. Everything f
 1. Using `MAX()` function, write a select statement to find the album with the longest duration. The result should display the album title and the duration.
 1. Using `MAX()` function, write a select statement to find the song with the longest duration. The result should display the song title and the duration.
 1. Modify the previous query to also display the title of the album.
-
-# Online SQL Tutorial
-
-There are two online tutorials that are very handy tools if you ever want to quickly churn through the basics of the SQL language against a pre-built database.
-
-1. [Basic SQL Course](http://www.sqlcourse.com/intro.html)
-2. [Intermediate SQL Course](http://www.sqlcourse2.com/intro2.html)

@@ -1,14 +1,5 @@
 # SQLite
 
-SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.
-
-What does that mean?
-
-1. SQLite does not require a separate server process or system to operate.
-1. Creating a SQLite database instance is as easy as opening a file.
-1. The entire database instance exists in a single cross-platform file.
-
-
 ## Setup
 
 Feel free to follow along with this exercise, or you can read through it and use it as a reference for the [corresponding exercise](13-SQLite_create_db_02.md). Make sure to run the following commands if you are coding along.
@@ -20,12 +11,6 @@ cd sqlite101
 npm install sqlite3 --save
 touch sqlite3Intro.js
 ```
-
-
-## sqlite3
-
-sqlite3 is an npm module that provides a software interface with a SQLite database. With sqlite3 and NodeJS you have the ability to create tables, drop tables, make inserts, query a SQLite database, and more.
-
 
 ### Creating a SQLite Database
 
@@ -78,7 +63,6 @@ db.run("INSERT INTO employees VALUES (2, 'Jim', 'Halpert')");
 
 The above statements may use different syntax, but they will both insert a record with `id`, `first`, and `last` values into the table. Omitting the `(id, first, last)` from the first statement will not change the outcome, but make sure that the values (eg: `(0, 'Michael', 'Scott')`) are in the **same order as they were defined when the table was created.**
 
-
 ### Dynamic Inserts with JavaScript
 
 First lets create an array of objects. Each object will hold information about an employee.
@@ -130,7 +114,6 @@ db.all("SELECT * FROM employees", (err, allRows) => {
 // 5, 'Pam Beesly'
 ```
 
-
 ### Error Handling
 
 Each of the database methods can receive an optional callback function, and this is where we can check for errors. Uncaught errors will be logged to the console, but so will the entire stack trace, which can be difficult to read.
@@ -161,7 +144,6 @@ db.all("SELECT * FROM employees", (err, allRows) => {
 });
 ```
 
-
 ### Closing the Database
 
 Once all statements have been executed, the database connection should be closed. We can do that with `db.close()`. Errors can also be listened for as well as a successful close event with a callback function.
@@ -172,9 +154,3 @@ db.close(err => {
   console.log('Database closed'); // Will only log on successful close
 })
 ```
-_____
-### Additional Resources
-
-###### [SQLite Website](https://www.sqlite.org/)
-######  [SQLite Tutorial | Language Reference](https://www.tutorialspoint.com/sqlite/index.htm)
-##### [sqlite3 API docs](https://github.com/mapbox/node-sqlite3/wiki/API)

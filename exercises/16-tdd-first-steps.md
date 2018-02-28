@@ -1,11 +1,5 @@
 ## TDD First Steps
 
-Now it's time to try building something by starting with only a single, failing test. Sounds like something Morpheus would say in The Matrix, doesn't it?
-
-The app will sound familiar. You may have built something just like it in the front end. But the process for building it will not be familiar. 
-
-## Requirements
-
 Construct a simple calculator, using modular structure. Create modules for each operation: add, subtract, multiply, divide, plus a module for pulling in all of those operations, just as you did in the diceroll exercise.
 
 Build the math modules using TDD with Mocha and Chai assertions. Remember, with unit tests your concern is with individual functions that return some kind of value. Start with an empty module and a single test. Something like...
