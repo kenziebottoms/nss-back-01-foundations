@@ -52,9 +52,4 @@ An *Entity-Relationship Diagram* is a visual mapping of the relationships betwee
      * http://ondras.zarovi.cz/sql/demo/  
      * https://www.gliffy.com/  
      * https://www.draw.io/  
-     * http://asciiflow.com/  
-
-## Requirements
-1. Create an ERD for the Music History databse
-  * Open in your Database Browser
-  * Use one of the tools listed above to create an ERD
+     * http://asciiflow.com/
