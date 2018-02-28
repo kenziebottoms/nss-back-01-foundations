@@ -18,8 +18,8 @@ node
 Print `Hello world.`
 
 ```js
-stdout: "Hello world."
 console.log("Hello world.");
+process.stdout.write("Hello world.");
 ```
 
 #### Exit
