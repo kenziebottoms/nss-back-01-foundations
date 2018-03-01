@@ -4,12 +4,16 @@
 
 const [,,...input] = process.argv;
 
-let sum = 0;
+let numbers = [0];
 
 for (let item of input) {
     // if !NaN
     if (+item == +item) {
-        sum += +item;
+        numbers.push(+item);
     }
 }
+
+let numberPrims = numbers.map(x => new Number(x));
+
+let sum = +numberPrims.reduce((head,tail) => head+tail);
 console.log(sum);
