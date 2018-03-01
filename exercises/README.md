@@ -11,7 +11,7 @@ The `challenges` folder contains some optional extra brain-burning you can tackl
 1. :white_check_mark: [Hello World](00-helloWorld.js)
 1. :white_check_mark: [Cheer](01-cheer.js)
 1. :white_check_mark: [Direct Execution](02-directExec.js)
-1. [Global Object](./03-global_object.md)
+1. :white_check_mark: [Global Object](./03-global_object.md)
 1. [Node Versions](./04-nodejs_versions.md)
 1. [Command Line Args](./05-command_arguments.md)
 1. [Node Modules](./06-third_party_modules.md)
