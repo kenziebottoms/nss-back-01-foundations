@@ -13,7 +13,7 @@ The `challenges` folder contains some optional extra brain-burning you can tackl
 1. :white_check_mark: [Direct Execution](02-directExec.js)
 1. :white_check_mark: [Global Object](03-global.js)
 1. :white_check_mark: [Command Line Args](05-sum.js)
-1. [Node Modules](./06-third_party_modules.md)
+1. :white_check_mark: [Node Modules](06-chalkFlag.js)
 
 ## Intermediate Stuff
 1. [File IO](./07-file_io.md)
