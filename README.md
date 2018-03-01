@@ -13,4 +13,5 @@ A repo for notes and throwaway code associated with ES6 review before the back-e
 - [Javascript equality table](https://dorey.github.io/JavaScript-Equality-Table/), dorey
 
 ### [Node.js docs](https://nodejs.org/api)
-    - [File System](https://nodejs.org/api/fs.html#fs_file_system)
+
+- [File System](https://nodejs.org/api/fs.html#fs_file_system)
