@@ -1,13 +1,13 @@
 "use strict";
 
-const  { readFileSync } = require("fs");
+const { readFileSync } = require("fs");
 
-const [,,file] = process.argv;
+const [, , file] = process.argv;
 if (file) {
     try {
         const data = readFileSync(file);
         console.log(data.toString());
-    } catch(err) {
+    } catch (err) {
         console.log("Error", err);
     }
 } else {
