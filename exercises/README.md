@@ -25,7 +25,7 @@ The `challenges` folder contains some optional extra brain-burning you can tackl
 1. We will work through the [RDBMS and ERDs](./10-relational-database-ERD.md) as a team in class.
 
 ## SQL (Structured Query Language)
-1. [Querying Music History DB](./11-sql_queries_01.md)
+1. [Querying Music History DB](11-music_history.sql)
 1. [Creating a new DB](./12-SQLite_create_db.md)
 1. [Querying our new DB](./13-SQLite_create_db_02.md)
 
