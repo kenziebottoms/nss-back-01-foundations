@@ -1,0 +1,46 @@
+{
+    "employees": [
+        {
+            "dept": "Maxemia",
+            "salary": 52,
+            "lastName": "Snow",
+            "firstName": "Edwards",
+            "id": 0
+        },
+        {
+            "dept": "Mondicil",
+            "salary": 64,
+            "lastName": "Ortega",
+            "firstName": "Boyer",
+            "id": 1
+        },
+        {
+            "dept": "Pheast",
+            "salary": 32,
+            "lastName": "Pace",
+            "firstName": "Guzman",
+            "id": 2
+        },
+        {
+            "dept": "Parleynet",
+            "salary": 62,
+            "lastName": "Zimmerman",
+            "firstName": "Rodriguez",
+            "id": 3
+        },
+        {
+            "dept": "Empirica",
+            "salary": 35,
+            "lastName": "Kramer",
+            "firstName": "Yolanda",
+            "id": 4
+        },
+        {
+            "dept": "Hatology",
+            "salary": 59,
+            "lastName": "White",
+            "firstName": "Hartman",
+            "id": 5
+        }
+    ]
+}

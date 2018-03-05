@@ -28,3 +28,11 @@ orders.forEach(({orderDate, amount, customerId}) => {
 customers.forEach(({firstName, lastName, address}) => {
     setTimeout(() => db.run(`INSERT INTO customers VALUES (null, "${firstName}", "${lastName}", "${address}");`), 1000);
 });
+
+db.all(`SELECT orderDate, amount
+    FROM orders o
+    JOIN customers c
+    ON o.customerId = c.id
+    WHERE c.id = 2`, err => {
+        console.log(err);
+    })
