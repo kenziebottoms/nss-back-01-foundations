@@ -62,7 +62,22 @@ LEFT JOIN
 GROUP BY g.GenreId;
 
 -- 9. Retrieve the album with the longest duration. Display the album title and the duration.
+SELECT
+	al.Title,
+	MAX(al.AlbumLength) AS Duration
+FROM Album al;
 
 -- 10. Retrieve the song with the longest duration. Display the song title and the duration.
+SELECT
+	s.Title,
+	MAX(s.SongLength) AS Duration
+FROM Song s;
 
 -- 11. Modify the previous query to also display the title of the album.
+SELECT
+	s.Title,
+	MAX(s.SongLength) AS Duration,
+	al.Title
+FROM Song s
+LEFT JOIN
+	Album al ON al.AlbumId = s.AlbumId;
