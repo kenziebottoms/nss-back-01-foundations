@@ -1,10 +1,6 @@
 # Synchronous File IO
 
-Create a JavaScript file to act as a Node.js program named `file-io.js`. This program
-should accept a single argument which should be a file path. Executing the
-program will print the contents of that file onto the terminal through the [stdout](http://node.readthedocs.io/en/stable/api/process/#processstdout)
-stream. Executing the program without an argument should simply return without
-printing anything. This functionality to be similar to the `cat` command.
+Create a JavaScript file to act as a Node.js program named `file-io.js`. This program should accept a single argument which should be a file path. Executing the program will print the contents of that file onto the terminal through the [stdout](http://node.readthedocs.io/en/stable/api/process/#processstdout) stream. Executing the program without an argument should simply return without printing anything. This functionality to be similar to the `cat` command.
 
 Optional: create a second file named `file-io.json` for your program to read.
 
@@ -34,16 +30,9 @@ $ ./file-io.js 07.json
 
 ```
 
-Note: Make sure with `pwd` before executing that you are in the directory that
-file is in.
+Note: Make sure with `pwd` before executing that you are in the directory that file is in.
 
 ## Bonus
 
--   ES6 Object Destructuring
--   Avoid `.toString`. Return a String primitive rather than a Buffer object
-    from `readFileSync`
-
-## Additional Reading
-
-[Read Files with Node.js](http://stackabuse.com/read-files-with-node-js/)
-[Loading modules with require()](https://bytearcher.com/articles/loading_modules_with_require/)
+- [ ] ES6 Object Destructuring
+- [ ] Avoid `.toString`. Return a String primitive rather than a Buffer object from `readFileSync`
