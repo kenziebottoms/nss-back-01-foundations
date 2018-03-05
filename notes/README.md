@@ -4,3 +4,6 @@
 
 ## Node
 - [Running and writing Javascript in the terminal](01-terminal_js.md)
+
+## SQL
+- [Operations](04-sql_ops.md)
