@@ -16,7 +16,7 @@ The `challenges` folder contains some optional extra brain-burning you can tackl
 1. :white_check_mark: [Node Modules](06-chalkFlag.js)
 
 ## Intermediate Stuff
-1. [File IO](./07-file_io.md)
+1. :white_check_mark: [File IO](07-languages.js)
 1. [Async File IO](./08-async_file_io.md)
 1. [Streaming IO](./09-streaminf-io.md)
 1. [Modularity Diceroll](./14-modularity-diceroll.md)

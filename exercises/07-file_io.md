@@ -34,5 +34,5 @@ Note: Make sure with `pwd` before executing that you are in the directory that f
 
 ## Bonus
 
-- [ ] ES6 Object Destructuring
-- [ ] Avoid `.toString`. Return a String primitive rather than a Buffer object from `readFileSync`
+- [x] ES6 Object Destructuring
+- [x] Avoid `.toString`. Return a String primitive rather than a Buffer object from `readFileSync`
