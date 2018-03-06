@@ -17,9 +17,9 @@ The `challenges` folder contains some optional extra brain-burning you can tackl
 
 ## Intermediate Stuff
 1. :white_check_mark: [File IO](07-languages.js)
-1. [Async File IO](./08-async_file_io.md)
-1. [Streaming IO](./09-streaminf-io.md)
-1. [Modularity Diceroll](./14-modularity-diceroll.md)
+1. :white_check_mark: [Async File IO](08-async_io.js)
+1. [Streaming IO](./09-streaming-io.md)
+1. :white_check_mark: [Modularity Diceroll](https://github.com/kenziebottoms/nss-back-00-diceroll)
 
 ## Data Structure
 1. We will work through the [RDBMS and ERDs](./10-relational-database-ERD.md) as a team in class.
