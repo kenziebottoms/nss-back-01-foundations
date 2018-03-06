@@ -18,7 +18,7 @@ The `challenges` folder contains some optional extra brain-burning you can tackl
 ## Intermediate Stuff
 1. :white_check_mark: [File IO](07-languages.js)
 1. :white_check_mark: [Async File IO](08-async_io.js)
-1. [Streaming IO](./09-streaming-io.md)
+1. :white_check_mark: [Streaming IO](09-streaming.js)
 1. :white_check_mark: [Modularity Diceroll](https://github.com/kenziebottoms/nss-back-00-diceroll)
 
 ## Data Structure

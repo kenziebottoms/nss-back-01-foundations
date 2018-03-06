@@ -1,8 +1,8 @@
 {
-    "languages": {
-        "JavaScript": "Awesome",
-        "C++": "Difficult",
-        "BASIC": "Old",
-        "Python": "Heart eyes emoji"
+    "LANGUAGES": {
+        "JAVASCRIPT": "AWESOME",
+        "C++": "DIFFICULT",
+        "BASIC": "OLD",
+        "PYTHON": "HEART EYES EMOJI"
     }
 }

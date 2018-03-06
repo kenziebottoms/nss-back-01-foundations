@@ -18,6 +18,7 @@ let {argv: [,,file]} = process;
 
 if (file) {
     createReadStream("07-languages.json")
+        .pipe(shout)
         .pipe(writeStream);
 } else {
     console.log("Please enter a file to be transformed.");
@@ -25,7 +26,7 @@ if (file) {
 }
 
 shout._transform = (buffer, _, callback) => {
-    callback(null, buffer.toString().toUpperCase);
+    callback(null, buffer.toString().toUpperCase());
 };
 
 writeStream._write = (buffer, _, next) => {
