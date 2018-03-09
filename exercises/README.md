@@ -18,7 +18,7 @@ The `challenges` folder contains some optional extra brain-burning you can tackl
 ## Intermediate Stuff
 1. :white_check_mark: [File IO](07-languages.js)
 1. :white_check_mark: [Async File IO](08-async_io.js)
-1. :white_check_mark: [Streaming IO](09-streaming.js)`
+1. :white_check_mark: [Streaming IO](09-streaming.js)
 1. :white_check_mark: [Modularity Diceroll](https://github.com/kenziebottoms/nss-back-00-diceroll)
 
 ## Data Structure
@@ -26,12 +26,11 @@ The `challenges` folder contains some optional extra brain-burning you can tackl
 
 ## SQL (Structured Query Language)
 1. :white_check_mark: [Querying Music History DB](11-music_history.sql)
-1. [Creating a new DB](./12-SQLite_create_db.md)
-1. [Querying our new DB](./13-SQLite_create_db_02.md)
+1. [Creating and querying a DB](13-SQLite_create_db_02.md)
 
 ## Testing
-1. :white_check_mark: [TDD-101](https://github.com/kenziebottoms/nss-back-00-diceroll)
-1. [TDD-next_steps](./16-tdd-first-steps.md)
+1. :white_check_mark: [TDD 101](https://github.com/kenziebottoms/nss-back-00-diceroll)
+1. [TDD Next steps](./16-tdd-first-steps.md)
 1. Persist data with a [Bag of Loot](./17-tdd_bag-o-loot.md)
 
 ## Building Servers (for an Open API)
