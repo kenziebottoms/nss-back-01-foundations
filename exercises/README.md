@@ -19,7 +19,7 @@ The `challenges` folder contains some optional extra brain-burning you can tackl
 1. :white_check_mark: [File IO](07-languages.js)
 1. :white_check_mark: [Async File IO](08-async_io.js)
 1. :white_check_mark: [Streaming IO](09-streaming.js)
-1. :white_check_mark: [Modularity Diceroll](https://github.com/kenziebottoms/nss-back-00-diceroll)
+1. :white_check_mark: [Modularity Diceroll](https://github.com/kenziebottoms/nss-back-00-diceroll) :arrow_upper_right:
 
 ## Data Structure
 1. We will work through the [RDBMS and ERDs](./10-relational-database-ERD.md) as a team in class.
@@ -29,8 +29,8 @@ The `challenges` folder contains some optional extra brain-burning you can tackl
 1. :white_check_mark: [Creating and querying a DB](13-sqlite.js)
 
 ## Testing
-1. :white_check_mark: [TDD 101](https://github.com/kenziebottoms/nss-back-00-diceroll)
-1. [TDD Next steps](./16-tdd-first-steps.md)
+1. :white_check_mark: [TDD 101](https://github.com/kenziebottoms/nss-back-00-diceroll) :arrow_upper_right:
+1. :white_check_mark: [TDD Next steps](https://github.com/kenziebottoms/nss-back-00-tdd-calculator) :arrow_upper_right:
 1. Persist data with a [Bag of Loot](./17-tdd_bag-o-loot.md)
 
 ## Building Servers (for an Open API)
