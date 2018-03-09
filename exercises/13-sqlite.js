@@ -38,9 +38,22 @@ const populate = () => {
     }));
 };
 
+const getAllEmployees = () => {
+    return new Promise((resolve, reject) => {
+        db.all(`SELECT * FROM employees`, (err, data) => {
+            if (err) return reject(err);
+            resolve(data);
+        });
+    });
+};
+
 const db = new sqlite3.Database("13-employees.sqlite", () => {
     createTable()
         .then(data => {
+            return getAllEmployees();
+        })
+        .then(employees => {
+            console.log(employees);
         })
         .catch(err => {
         });
