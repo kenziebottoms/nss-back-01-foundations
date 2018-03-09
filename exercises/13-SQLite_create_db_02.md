@@ -15,9 +15,9 @@ A friend of yours owns a small family business and wants to start moving all of 
     - [x] address
 - [x] Create an array of at least 6 objects. Each object should have a key value pair matching each column name in the `employees` table.
 - [x] Insert each of the employee objects into the database.
-- [ ] Write a statement to query the database and `console.log()` all employee records.
-- [ ] Write a statement to query the database and `console.log()` each employee's `jobTitle`.
-- [ ] Write a statement to query the database and `console.log()` each employee's `firstName`, `lastName` and `address` only.
+- [x] Write a statement to query the database and `console.log()` all employee records.
+- [x] Write a statement to query the database and `console.log()` each employee's `jobTitle`.
+- [x] Write a statement to query the database and `console.log()` each employee's `firstName`, `lastName` and `address` only.
 
 ## Bonus Features
 
