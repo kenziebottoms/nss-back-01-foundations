@@ -1,0 +1,17 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "description": "This is a suggested order for completing the exercises in orientation. Copied from [this repo](https://github.com/nashville-software-school/bangazon-corp/tree/master/orientation/resources).",
+  "main": "00-helloWorld.js",
+  "dependencies": {
+    "chalk": "^2.3.1",
+    "sqlite3": "^3.1.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,60 @@
+{
+    "employees": [
+        {
+            "id": 0,
+            "firstName": "Nieves",
+            "lastName": "Bradford",
+            "jobTitle": "Scentric",
+            "address": "40 Allen Avenue"
+        },
+        {
+            "id": 1,
+            "firstName": "Leticia",
+            "lastName": "Joyner",
+            "jobTitle": "Dentrex",
+            "address": "45 Rost Place"
+        },
+        {
+            "id": 2,
+            "firstName": "Franks",
+            "lastName": "Bates",
+            "jobTitle": "Tersanki",
+            "address": "36 Clinton Street"
+        },
+        {
+            "id": 3,
+            "firstName": "Erma",
+            "lastName": "Jarvis",
+            "jobTitle": "Cuizine",
+            "address": "21 Fiske Place"
+        },
+        {
+            "id": 4,
+            "firstName": "Jane",
+            "lastName": "Lloyd",
+            "jobTitle": "Waab",
+            "address": "40 Ingraham Street"
+        },
+        {
+            "id": 5,
+            "firstName": "Summer",
+            "lastName": "Summers",
+            "jobTitle": "Quinex",
+            "address": "27 Butler Place"
+        },
+        {
+            "id": 6,
+            "firstName": "Patrica",
+            "lastName": "Rich",
+            "jobTitle": "Kidstock",
+            "address": "42 Empire Boulevard"
+        },
+        {
+            "id": 7,
+            "firstName": "Rena",
+            "lastName": "Cook",
+            "jobTitle": "Netplax",
+            "address": "49 Jay Street"
+        }
+    ]
+}
