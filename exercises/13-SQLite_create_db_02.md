@@ -6,21 +6,15 @@ In this exercise you will create a SQLite database, create tables, insert record
 
 A friend of yours owns a small family business and wants to start moving all of their business records into a database. Using your NodeJS skills, they want you to create a SQLite database to store information about their employees.
 
-- [ ] Create a database that is saved on disk.
-- [ ] Create a table titled `employees` with the following columns:
-    - [ ] id
-    - [ ] firstName
-    - [ ] lastName
-    - [ ] jobTitle
-    - [ ] address
-- [ ] Create an array of at least 6 objects. Each object should have a key value pair matching each column name in the `employees` table.
-  ```js
-  eg: let array = [
-    { id: 0, firstName: 'Fred', lastName: 'Smith', jobTitle: 'Cashier', address: '500 Somewhere Lane' },
-    ...,
-  ]
-  ```  
-- [ ] Insert each of the employee objects into the database.
+- [x] Create a database that is saved on disk.
+- [x] Create a table titled `employees` with the following columns:
+    - [x] id
+    - [x] firstName
+    - [x] lastName
+    - [x] jobTitle
+    - [x] address
+- [x] Create an array of at least 6 objects. Each object should have a key value pair matching each column name in the `employees` table.
+- [x] Insert each of the employee objects into the database.
 - [ ] Write a statement to query the database and `console.log()` all employee records.
 - [ ] Write a statement to query the database and `console.log()` each employee's `jobTitle`.
 - [ ] Write a statement to query the database and `console.log()` each employee's `firstName`, `lastName` and `address` only.
