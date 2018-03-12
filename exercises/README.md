@@ -31,7 +31,7 @@ The `challenges` folder contains some optional extra brain-burning you can tackl
 ## Testing
 1. :white_check_mark: [TDD 101](https://github.com/kenziebottoms/nss-back-00-diceroll) :arrow_upper_right:
 1. :white_check_mark: [TDD Next steps](https://github.com/kenziebottoms/nss-back-00-tdd-calculator) :arrow_upper_right:
-1. :white_check_mark: Persist data with a [Bag of Loot](https://github.com/kenziebottoms/nss-back-00-bag-o-loot)
+1. :white_check_mark: Persist data with a [Bag of Loot](https://github.com/kenziebottoms/nss-back-00-bag-o-loot) :arrow_upper_right:
 
 ## Building Servers (for an Open API)
 1. [HTTP client](./18-http_client.md)
