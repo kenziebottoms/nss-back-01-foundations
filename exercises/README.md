@@ -22,7 +22,7 @@ The `challenges` folder contains some optional extra brain-burning you can tackl
 1. :heavy_check_mark: [Modularity Diceroll](https://github.com/kenziebottoms/nss-back-01-diceroll) :arrow_upper_right:
 
 ## Data Structure
-1. We will work through the [RDBMS and ERDs](./10-relational-databases-ERD.md) as a team in class.
+1. :heavy_check_mark: [RDBMS and ERDs](./10-relational-databases-ERD.md)
 
 ## SQL (Structured Query Language)
 1. :heavy_check_mark: [Querying Music History DB](11-music_history.sql)
