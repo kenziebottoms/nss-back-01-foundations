@@ -34,7 +34,7 @@ The `challenges` folder contains some optional extra brain-burning you can tackl
 1. :heavy_check_mark: Persist data with a [Bag of Loot](https://github.com/kenziebottoms/nss-back-01-bag-o-loot) :arrow_upper_right:
 
 ## Building Servers (for an Open API)
-1. [HTTP client](./18-http_client.md)
+1. :heavy_check_mark: [HTTP client](https://github.com/kenziebottoms/nss-back-01-stocks) :arrow_upper_right:
 1. [HTTP server](./19-http-server.md)
 1. [Express Hello World](./20-express-hello-world.md)
 1. [Express Middleware](./21-express-middleware.md)
