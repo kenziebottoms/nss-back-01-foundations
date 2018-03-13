@@ -38,6 +38,3 @@ The `challenges` folder contains some optional extra brain-burning you can tackl
 1. [HTTP server](./19-http-server.md)
 1. [Express Hello World](./20-express-hello-world.md)
 1. [Express Middleware](./21-express-middleware.md)
-
-## Your final assignment, should you choose to accept it
-1. [Bangazon](./22-bangazon-ERD.md)
