@@ -1,6 +1,6 @@
 # Javascript Review
 
-A repo for notes and throwaway code associated with ES6 review before the back-end (Node) half of Nashville Software School.
+A repo for notes and throwaway code associated with [this repo](https://github.com/nashville-software-school/node-milestones/tree/master/01-foundations)'s exercises.
 
 - [Notes](notes)
 - [Livecodes](livecodes)
