@@ -4,6 +4,11 @@
 1. Open in your Database Browser
 1. Use one of the tools listed above to create an ERD
 
-[Source code](10-music-history-erd.xml)
+### Attempt 1 with Ondras SQL Designer
 
+[Source code](10-music-history-erd.xml)
 ![](erd.jpg)
+
+### Attempt 2 with LucidChart
+
+[PDF](erd2.pdf)

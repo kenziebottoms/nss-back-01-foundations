@@ -14,6 +14,7 @@ A repo for notes and throwaway code associated with [this repo](https://github.c
 - [Intro to DB Modeling](http://www.datanamic.com/support/lt-dez005-introduction-db-modeling.html), Datanamic
 - [SQL Tutorial](https://www.w3schools.com/sql/default.asp), W3Schools
 - [JSON generator](https://next.json-generator.com), Vazha Omanashvili
+- [ER Diagram Tutorial](https://www.lucidchart.com/pages/er-diagrams), LucidChart
 
 ### [Node.js docs](https://nodejs.org/api)
 
