@@ -36,5 +36,5 @@ The `challenges` folder contains some optional extra brain-burning you can tackl
 ## Building Servers (for an Open API)
 1. :heavy_check_mark: [HTTP client](https://github.com/kenziebottoms/nss-back-01-stocks) :arrow_upper_right:
 1. :heavy_check_mark: [HTTP server](https://github.com/kenziebottoms/nss-back-01-file-server) :arrow_upper_right:
-1. [Express Hello World](./20-express-hello-world.md)
-1. [Express Middleware](./21-express-middleware.md)
+1. :heavy_check_mark: [Express Hello World](https://github.com/kenziebottoms/nss-back-01-egg-time) :arrow_upper_right:
+1. :heavy_check_mark: [Express Middleware](https://github.com/kenziebottoms/nss-back-01-egg-time) :arrow_upper_right:
