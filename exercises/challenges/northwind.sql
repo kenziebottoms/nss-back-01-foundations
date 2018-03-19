@@ -1,25 +1,39 @@
 -- Get a list of all the orders processed with category name (as an input parameter)
-
 SELECT
-	c.CategoryName,
     o.*,
-	od.*,
-    p.id
+    od.*,
+    c.CategoryName
 FROM Orders o
-JOIN
-	Category c ON c.CategoryName = "Seafood"
+LEFT JOIN
+    Category c ON c.CategoryName = `${catName}`
 JOIN
     OrderDetail od ON od.OrderId = o.id AND od.ProductId = p.id
 JOIN
     Product p ON p.CategoryId = c.id;
 
--- SELECT id FROM Category WHERE Category.CategoryName = "Seafood"
-
 -- Get the product name, count of orders processed
+SELECT
+    p.ProductName,
+    (SELECT
+        COUNT(*)
+        FROM OrderDetail od
+        WHERE od.ProductId = p.Id
+    ) as OrderCount
+FROM Product p;
 
 -- Get the list of the months which don’t have any orders
 
 -- Get the top 3 products which have the most orders
+SELECT
+    p.ProductName,
+	(SELECT
+        COUNT(*)
+        FROM OrderDetail od
+        WHERE od.ProductId = p.Id
+    ) as OrderCount
+FROM Product p
+ORDER BY OrderCount DESC
+LIMIT 3;
 
 -- Get the list of the months which don’t have any orders for product chai
 
