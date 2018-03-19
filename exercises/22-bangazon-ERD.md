@@ -4,7 +4,7 @@
 
 Build an ERD to define the properties of the following resources and the relationships between them. There are some properties defined for each resources, but they are the bare minimum. Use your own life skills and knowledge to add appropriate properties to each one where you see fit.
 
-> **Technical Note:** These are the main resources that are needed in the database and is *not* an all-inclusive list of tables that should be created.
+[ERD (PDF)](22-bangazon-erd.pdf)
 
 #### Employees
 * An employee can only be assigned to one department
