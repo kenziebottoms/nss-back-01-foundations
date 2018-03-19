@@ -1,4 +1,4 @@
-# Node cal
+# Node `cal`
 If you type `cal` into your terminal, you will see an output of the current month in calendar form. Type `cal` and just a year, you'll see a whole year. Type `cal` plus a month and any year from 0 to 9999, and you'll see that month's calendar. It's pretty cool. Guess what? You can build a clone of `cal` right now.
 
 All you need is a little help from Christian Zeller, the man behind [Zeller's congruence](https://en.wikipedia.org/wiki/Zeller's_congruence). Thanks to him, we can calculate the day of the week of the first day of any month of (almost) any year. As our gift to you, we have included a snippet that shows the formula, plus how to implement it in JavaScript. We accept tokens of gratitude in cash or food.
