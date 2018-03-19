@@ -1,4 +1,4 @@
--- Get a list of all the orders processed with category name (as an input parameter)
+-- 1. Get a list of all the orders of Products in a given Category (as an input parameter).
 SELECT
     o.*,
     od.*,
@@ -11,7 +11,7 @@ JOIN
 JOIN
     Product p ON p.CategoryId = c.id;
 
--- Get the product name, count of orders processed
+-- 2. Get the name and Order count for each Product.
 SELECT
     p.ProductName,
     (SELECT
@@ -21,9 +21,19 @@ SELECT
     ) as OrderCount
 FROM Product p;
 
--- Get the list of the months which don’t have any orders
+-- 3. Get the list of the months which don’t have any Orders.
+    -- Kenzie: These are the list of the months which _have_ orders. Don't know how to get ####-## strings that are not in the DB from the DB.
+SELECT
+    SUBSTR(o.OrderDate,0,8) as Month,
+    (SELECT
+        COUNT(*)
+        FROM Orders o2
+        WHERE SUBSTR(o2.OrderDate,0,8) = SUBSTR(o.OrderDate,0,8)
+    ) as OrderCount
+FROM Orders o
+GROUP BY Month;
 
--- Get the top 3 products which have the most orders
+-- 4. Get the 3 Products with the most Orders.
 SELECT
     p.ProductName,
 	(SELECT
@@ -35,18 +45,19 @@ FROM Product p
 ORDER BY OrderCount DESC
 LIMIT 3;
 
--- Get the list of the months which don’t have any orders for product chai
+-- 5.  Get the list of the months which don’t have any Orders for the Product "chai".
+    -- Kenzie: same problem as with #3
 
--- Get the list of the products which don’t have any orders across all the months and year as
+-- 6. Get the list of the Products which don’t have any Orders.
 
--- Get the list of employees who processed orders for the product chai
+-- 7. Get the list of Employees who processed Orders for the Product "chai".
 
--- Get the list of employees and the count of orders they processed in the month of march across all years
+-- 8. Get the list of Employees and the count of Orders they processed in the month of March across all years.
 
--- Get the list of employees who processed the orders that belong to the city in which they live
+-- 9. Get the list of Employees who processed Orders that belong to the city in which they live.
 
--- Get the list of employees who processed the orders that don’t belong to the city in which they live
+-- 10. Get the list of Employees who processed Orders that don’t belong to the city in which they live.
 
--- Get the shipping companies that processed ordersfor the category Seafood
+-- 11. Get the Shippers that processed Orders for the Category "Seafood".
 
--- Get the category name and count of orders processed by employees in the USA
+-- 12. Get the name and number of Orders processed by Employees in the USA for each Category.
